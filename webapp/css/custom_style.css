@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+* {
+	font-family: Arial;
+	font-size: 15px;
+	
+	box-sizing: border-box; 
+}
+
+html,body{
+	min-height:100vh;
+	display:flex;
+	flex-direction:column;
+}
+
+.main-div{
+	flex:1;
+	/*automaticaaly main div will groww and shrink*/
+}
+
+#footerdiv
+{
+	background-color: black;
+	width: 100%;
+	height:50px;
+	display:flex;
+	color:white;
+}
